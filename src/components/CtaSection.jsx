@@ -1,0 +1,9 @@
+export default function CtaSection(){
+    return(
+        <>
+            <section className="px-24 py-4 bg-purple-900 text-white text-center">
+                <h1 className="font-regular italic text-1xl">Looking for quality photography? <a href="/" className="bg-white px-4 py-2 text-purple-900 rounded-lg text-sm mx-5">Get in touch</a></h1>
+            </section>
+        </>
+    )
+}

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+body{
+  font-family: 'Work Sans';
+}
+
+.cc-3{
+  column-count: 3;
+}
