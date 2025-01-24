@@ -2,7 +2,6 @@
 
 *{
   box-sizing: border-box;
-  transition: .2s;
 }
 
 body{
@@ -11,4 +10,11 @@ body{
 
 .cc-3{
   column-count: 3;
+}
+
+@media only screen 
+   and (max-width : 768px) {
+   .cc-3{
+    column-count: 1;
+   }
 }

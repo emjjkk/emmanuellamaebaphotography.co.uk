@@ -1,10 +1,10 @@
 export default function () {
     return (
         <>
-            <section className="p-24">
-                <h2 className="text-4xl text-slate-800 font-semibold text-center mb-12">Frequently Asked Questions</h2>
-                <div className="flex">
-                    <div className="w-2/4 text-slate-800 border-slate-500">
+            <section className="px-4 my-12 md:p-24">
+                <h2 className="text-2xl md:text-4xl text-slate-800 font-semibold text-center mb-12">Frequently Asked Questions</h2>
+                <div className="md:flex">
+                    <div className="md:w-2/4 text-slate-800 border-slate-500">
                         <div className="flex flex-col divide-y">
                             <details open="true">
                                 <summary className="py-2 outline-none cursor-pointer focus:underline">How do I book a photo session with you?</summary>
@@ -32,28 +32,28 @@ export default function () {
                             </details>
                         </div>
                     </div>
-                    <div className="w-2/4 flex flex-col items-end">
+                    <div className="md:w-2/4 flex flex-col items-end mt-10 md:mt-0">
                         <div className="w-full flex flex-col items-end mb-10">
                             <h2 className="text-lg text-right mb-2">Photography <span className="font-light ml-5">100%</span></h2>
-                            <div className="w-[80%] h-[3px] bg-slate-300">
+                            <div className="w-full md:w-[80%] h-[3px] bg-slate-300">
                                 <div className="w-[100%] h-full bg-red-500"></div>
                             </div>
                         </div>
                         <div className="w-full flex flex-col items-end mb-10">
                             <h2 className="text-lg text-right mb-2">Creativity <span className="font-light ml-5">85%</span></h2>
-                            <div className="w-[80%] h-[3px] bg-slate-300">
+                            <div className="w-full md:w-[80%] h-[3px] bg-slate-300">
                                 <div className="w-[85%] h-full bg-purple-500"></div>
                             </div>
                         </div>
                         <div className="w-full flex flex-col items-end mb-10">
                             <h2 className="text-lg text-right mb-2">Retouching <span className="font-light ml-5">95%</span></h2>
-                            <div className="w-[80%] h-[3px] bg-slate-300">
+                            <div className="w-full md:w-[80%] h-[3px] bg-slate-300">
                                 <div className="w-[95%] h-full bg-blue-500"></div>
                             </div>
                         </div>
                         <div className="w-full flex flex-col items-end mb-10">
                             <h2 className="text-lg text-right mb-2">Communication <span className="font-light ml-5">99%</span></h2>
-                            <div className="w-[80%] h-[3px] bg-slate-300">
+                            <div className="w-full md:w-[80%] h-[3px] bg-slate-300">
                                 <div className="w-[99%] h-full bg-green-500"></div>
                             </div>
                         </div>
