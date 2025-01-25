@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 
 export default function WPs() {
 
-    const images = import.meta.glob('/src/assets/productionstills/*');
-    const imagePaths = Object.keys(images);
-    
+    const images = import.meta.glob("/src/assets/productionstills/*", { eager: true }); // Eagerly load images
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
 
     return (
         <>

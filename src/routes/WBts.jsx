@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function WBts() {
 
-    const images = import.meta.glob('/src/assets/bts/*');
-    const imagePaths = Object.keys(images);
+    const images = import.meta.glob("/src/assets/bts/*", { eager: true }); // Eagerly load images
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
     
 
     return (

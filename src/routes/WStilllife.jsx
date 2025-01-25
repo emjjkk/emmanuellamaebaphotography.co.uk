@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function WStilllife() {
 
-    const images = import.meta.glob('/src/assets/stilllife/*');
-    const imagePaths = Object.keys(images);
+    const images = import.meta.glob("/src/assets/stilllife/*", { eager: true }); // Eagerly load images
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
     
 
     return (

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function WPortraits() {
 
-    const images = import.meta.glob('/src/assets/portraits/*');
-    const imagePaths = Object.keys(images);
+    const images = import.meta.glob("/src/assets/portraits/*", { eager: true }); // Eagerly load images
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
     
 
     return (

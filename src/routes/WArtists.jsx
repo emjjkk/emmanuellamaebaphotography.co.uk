@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function WArtists() {
 
     const images = import.meta.glob("/src/assets/artists/*", { eager: true }); // Eagerly load images
-  const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
 
     return (
         <>

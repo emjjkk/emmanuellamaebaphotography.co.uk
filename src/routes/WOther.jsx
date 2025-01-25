@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function WOther() {
 
-    const images = import.meta.glob('/src/assets/others/*');
-    const imagePaths = Object.keys(images);
+    const images = import.meta.glob("/src/assets/others/*", { eager: true }); // Eagerly load images
+    const imagePaths = Object.values(images).map((mod) => mod.default); // Extract paths
     
 
     return (
