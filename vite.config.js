@@ -8,14 +8,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: 'src/assets/*',
-          dest: '/'
-        }
-      ]
-    })
   ],
   server: {
     allowedHosts: [
