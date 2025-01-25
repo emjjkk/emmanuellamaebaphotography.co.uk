@@ -8,7 +8,7 @@ export default function About() {
             </section>
             <div className="w-full min-h-screen px-4 py-12 md:p-24 md:flex">
                 <div className="md:w-1/3">
-                    <img src="/banner-bg.jpg" className="md:h-[600px] w-full md:w-auto rounded-lg mb-10" alt="" />
+                    <img src="/banner-bg.jpg" className="md:h-[600px] w-full md:w-auto rounded-lg mb-10 pr-10" alt="" />
                 </div>
                 <div className="md:w-1/3 mb-5">
                     <h1 className="text-4xl font-semibold mb-3">Emmanuella Maeba</h1>
