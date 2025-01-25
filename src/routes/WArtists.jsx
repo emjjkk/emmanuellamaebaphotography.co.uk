@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function WArtists() {
 
-    const images = import.meta.glob('/assets/artists/*');
+    const images = import.meta.glob('/i/artists/*');
     const imagePaths = Object.keys(images);
     
 

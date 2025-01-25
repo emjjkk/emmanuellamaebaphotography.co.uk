@@ -12,7 +12,7 @@ export default defineConfig({
       targets: [
         {
           src: 'src/assets/*',
-          dest: '/assets'
+          dest: '/'
         }
       ]
     })
