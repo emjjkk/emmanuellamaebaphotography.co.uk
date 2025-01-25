@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import 'react-image-lightbox/style.css'; // Import lightbox styles
-import Lightbox from 'react-image-lightbox';
 
 export default function WBts() {
 
