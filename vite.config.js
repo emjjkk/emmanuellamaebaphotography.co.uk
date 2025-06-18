@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: [
-      "5173-emjjkk-emmanuellamaebap-rxj988usl8n.ws-eu117.gitpod.io"
+      "5173-emjjkk-emmanuellamaebap-cesd1rnbgvx.ws-eu120.gitpod.io"
     ]
   }
 })
