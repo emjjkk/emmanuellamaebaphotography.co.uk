@@ -24,9 +24,6 @@ import WOther from './routes/WOther.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
-
-  💩 Website under construction :P Check back another time.
-  {/*
   <Header />
     <BrowserRouter>
       <Routes>
@@ -44,7 +41,5 @@ createRoot(document.getElementById('root')).render(
       </Routes>
     </BrowserRouter>
     <Footer /> 
-    */}
-    
   </>,
 )
