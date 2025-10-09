@@ -25,9 +25,9 @@ export default function Footer() {
             </footer>
             <div className="w-full px-4 md:px-24 py-2 bg-black text-white md:flex justify-between">
                 <p className="text-[11px] text-light">&copy;2025 Emmanuella Maeba. All rights reserved</p>
-                <p className="text-slate-500 text-[11px] text-light">Web development by @emjjkk 
-                    <a href="https://emjjkk.blsky.app"><i className="fa-brands fa-bluesky ml-1 text-[11px] hover:text-white"></i> </a>
-                    <a href="https://emjjkk.blsky.app"><i className="fa-brands fa-discord ml-1 text-[11px] hover:text-white"></i> </a>
+                <p className="text-slate-500 text-[11px] text-light flex items-center gap-1">Website built with by @emjjkk 
+                    <a href="https://emjjkk.vercel.app"><i className="fa-solid fa-globe ml-1 text-[11px] hover:text-white"></i> </a>
+                    <a href="https://discord.com/users/1100072616317952040"><i className="fa-brands fa-discord ml-1 text-[11px] hover:text-white"></i> </a>
                     <a href="https://github.com/emjjkk"><i className="fa-brands fa-github ml-1 text-[11px] hover:text-white"></i> </a>
                 </p>
             </div>
