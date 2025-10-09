@@ -13,7 +13,7 @@ export default function Footer() {
                         <h1 className="text-white text-lg mb-2">Contact details</h1>
                         <p className="text-sm"><i className="fa-solid fa-location mr-2"></i>Kent, United Kingdom</p>
                         <p className="text-sm"><i className="fa-solid fa-phone mr-2"></i>+44 749 666 6840</p>
-                        <p className="text-sm"><i className="fa-solid fa-at mr-2 mb-5"></i>emmanuella.maeba@gmail.com</p>
+                        <p className="text-sm"><i className="fa-solid fa-at mr-2 mb-5"></i>emmanuellamaebaphoto@gmail.com</p>
                         <p>
                             <a href="https://instagram.com/emmanuellamaebaphotography"><i className="fa-brands fa-instagram ml-2 hover:text-purple-700"></i> </a>
                             <a href="https://www.linkedin.com/in/emmanuella-maeba-140501209/?originalSubdomain=uk"><i className="fa-brands fa-linkedin ml-2 hover:text-purple-700"></i> </a>
