@@ -15,7 +15,7 @@ export default function Contact() {
                     </div>
                     <div className="flex flex-col items-center justify-center md:w-1/3 md:border-x mb-5 md:mb-0">
                         <i className="fa-solid fa-envelope text-purple-500 text-lg mb-2"></i>
-                        <p className="text-md font-light">emmanuella.maeba@gmail.com</p>
+                        <p className="text-md font-light">emmanuellamaebaphoto@gmail.com</p>
                     </div>
                     <div className="flex flex-col items-center justify-center md:w-1/3 md:border-r">
                         <i className="fa-solid fa-map-marker text-purple-500 text-lg mb-2"></i>
