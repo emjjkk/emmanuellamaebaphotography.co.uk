@@ -26,9 +26,10 @@ export default function Footer() {
             <div className="w-full px-4 md:px-24 py-2 bg-black text-white md:flex justify-between">
                 <p className="text-[11px] text-light">&copy;2025 Emmanuella Maeba. All rights reserved</p>
                 <p className="w-fit text-blue-600 font-semibold rounded-sm text-[11px] flex items-center gap-1">Website built by @emjjkk 
-                    <a href="https://emjjkk.vercel.app"><i className="fa-solid fa-globe ml-1 text-[11px] hover:text-white"></i> </a>
+                    <a href="https://emjjkk.tech"><i className="fa-solid fa-globe ml-1 text-[11px] hover:text-white"></i> </a>
                     <a href="https://discord.com/users/1100072616317952040"><i className="fa-brands fa-discord ml-1 text-[11px] hover:text-white"></i> </a>
-                    <a href="https://github.com/emjjkk"><i className="fa-brands fa-github ml-1 text-[11px] hover:text-white"></i> </a>
+                    <a href="https://github.com/emjjkk"><i className="fa-brands fa-github ml-3 text-[11px] hover:text-white"></i> </a>
+                    <a href="https://cloud.umami.is/share/NBwtj7Z7jTiN7DoX" className="text-white text-[11px]">View Analytics</a>
                 </p>
             </div>
         </>
