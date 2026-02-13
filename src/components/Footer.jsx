@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="w-full px-4 md:px-24 py-2 bg-black text-white md:flex justify-between">
                 <p className="text-[11px] text-light">&copy;2025 Emmanuella Maeba. All rights reserved</p>
                 <p className="w-fit text-blue-600 font-semibold rounded-sm text-[11px] flex items-center gap-1">Website built & maintained by @emjjkk. 
-                    <a href="https://work.emjjkk.tech"  className="text-white text-[11px]">Get yours today. </a>
+                    <a href="https://work.emjjkk.tech/?ref=emmanuellamaebaphotography.co.uk&hostID=null"  className="text-white text-[11px]">Get yours today. </a>
                 </p>
             </div>
         </>
